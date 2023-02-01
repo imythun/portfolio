@@ -1,0 +1,35 @@
+<!-- /row - /content-end -->
+<div class="row">
+   <div class="col">
+      <div class="copyright-text" data-aos="fade-down">
+         <a class="scrollTop" href="#letsGo">
+            <div class="arrow-top">
+               <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-rule="evenodd" clip-rule="evenodd">
+                  <path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"></path>
+               </svg>
+            </div>
+         </a>
+         <p>&copy; 2020, Mithun Manohar</p>
+      </div>
+   </div>
+</div>
+</div>
+<!-- /main-wrapper -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/ajax-mail.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+    $(".charonly").on("keypress", function(event){
+        var inputValue = event.which;
+        if(!(inputValue >= 65 && inputValue <= 122) && (inputValue != 32 && inputValue != 0)) { 
+            event.preventDefault(); 
+        }
+    });
+    
+
+</script>
+
+</body>
+</html>
